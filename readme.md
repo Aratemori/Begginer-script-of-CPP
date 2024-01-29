@@ -20,8 +20,8 @@ int main() {
 
 	if (course == "shutdown") {
 		cout << "Okay!" << endl;
-    system("shutdown -h now");
-    return 0;
+    		system("shutdown -h now");
+    		return 0;
 	}
 
 	if (course == "none") {
